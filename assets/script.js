@@ -30,11 +30,13 @@ $(document).ready(function () {
                 $(this).addClass("past");
 
             }
+            // if block time equals the current time
             else if (blockTime === timeNow) {
                 $(this).removeClass("past");
                 $(this).removeClass("future");
                 $(this).addClass("present");
             }
+            // if block time hasnt happened yet
             else {
                 $(this).removeClass("present");
                 $(this).removeClass("past");

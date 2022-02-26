@@ -1,9 +1,9 @@
 // display the current day and date
 let todayDate = moment().format(`dddd, MMM Do YYYY`);
-let timeNowFormat = moment().format(`h:m A`);
+let timeNowFormat = moment().format(`h:mm A`);
 $("#currentDay").html(todayDate);
 
-$("#currentTime").html("Last Loaded At " +timeNowFormat);
+$("#currentTime").html("Last Loaded At " + timeNowFormat);
 
 $(document).ready(function () {
     // setting up the on click for the save buttons

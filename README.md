@@ -17,3 +17,6 @@ When you click on a timeblock you can enter a note or task within that box. Once
 When the button is hit the text and time within that time block is saved to local storage. Once saved you are able to reload the page without losing the data you had input.
 
 PS: When these screenshots were taken, it was past the hours avaiable for the timeblocks so all are grade out. 
+
+Email: DjSamiF@gmail.com
+Phone: 201-468-2130
